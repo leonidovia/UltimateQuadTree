@@ -218,10 +218,10 @@ namespace UltimateQuadTree
                 }
             }
 
-            private bool IsTop(T obj) => ObjectBounds.GetTop(obj) < Rect.MidY;
-            private bool IsBottom(T obj) => ObjectBounds.GetBottom(obj) > Rect.MidY;
-            private bool IsLeft(T obj) => ObjectBounds.GetLeft(obj) < Rect.MidX;
-            private bool IsRight(T obj) => ObjectBounds.GetRight(obj) > Rect.MidX;
+            private bool IsTop(T obj) => ObjectBounds.GetTop(obj) <= Rect.MidY;
+            private bool IsBottom(T obj) => ObjectBounds.GetBottom(obj) >= Rect.MidY;
+            private bool IsLeft(T obj) => ObjectBounds.GetLeft(obj) <= Rect.MidX;
+            private bool IsRight(T obj) => ObjectBounds.GetRight(obj) >= Rect.MidX;
         }
     }
 }
