@@ -1,7 +1,23 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.4</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageProjectUrl>https://github.com/leonidovia/UltimateQuadTree</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/leonidovia/UltimateQuadTree/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright>Leonidov Igor' Andreevich</Copyright>
+    <RepositoryUrl>https://github.com/leonidovia/UltimateQuadTree</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>quadtree, quad tree</PackageTags>
+    <Authors>Igor' Leonidov</Authors>
+    <Company />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Description>The .NET implementation of the QuadTree algorithm for generic types.</Description>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.4\UltimateQuadTree.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>

@@ -1,0 +1,10 @@
+C:\Users\igor\Documents\Visual Studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\bin\Release\netstandard2.0\UltimateQuadTree.deps.json
+C:\Users\igor\Documents\Visual Studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\bin\Release\netstandard2.0\UltimateQuadTree.dll
+C:\Users\igor\Documents\Visual Studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\bin\Release\netstandard2.0\UltimateQuadTree.pdb
+C:\Users\igor\Documents\Visual Studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\bin\Release\netstandard2.0\UltimateQuadTree.xml
+C:\Users\igor\Documents\Visual Studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\obj\Release\netstandard2.0\UltimateQuadTree.csproj.CoreCompileInputs.cache
+C:\Users\igor\Documents\Visual Studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\obj\Release\netstandard2.0\UltimateQuadTree.AssemblyInfoInputs.cache
+C:\Users\igor\Documents\Visual Studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\obj\Release\netstandard2.0\UltimateQuadTree.AssemblyInfo.cs
+C:\Users\igor\Documents\Visual Studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\obj\Release\netstandard2.0\UltimateQuadTree.dll
+C:\Users\igor\Documents\Visual Studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\obj\Release\netstandard2.0\UltimateQuadTree.pdb
+C:\Users\igor\Documents\Visual Studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\obj\Release\netstandard2.0\UltimateQuadTree.csprojResolveAssemblyReference.cache

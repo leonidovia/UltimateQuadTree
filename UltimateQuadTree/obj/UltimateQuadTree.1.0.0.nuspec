@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>UltimateQuadTree</id>
+    <version>1.0.0</version>
+    <authors>Igor' Leonidov</authors>
+    <owners>Igor' Leonidov</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/leonidovia/UltimateQuadTree/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/leonidovia/UltimateQuadTree</projectUrl>
+    <description>The .NET implementation of the QuadTree algorithm for generic types.</description>
+    <copyright>Leonidov Igor' Andreevich</copyright>
+    <tags>quadtree, quad tree</tags>
+    <repository type="Git" url="https://github.com/leonidovia/UltimateQuadTree" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\igor\Documents\Visual Studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\bin\Release\netstandard2.0\UltimateQuadTree.dll" target="lib\netstandard2.0\UltimateQuadTree.dll" />
+    <file src="C:\Users\igor\Documents\Visual Studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\bin\Release\netstandard2.0\UltimateQuadTree.xml" target="lib\netstandard2.0\UltimateQuadTree.xml" />
+  </files>
+</package>
