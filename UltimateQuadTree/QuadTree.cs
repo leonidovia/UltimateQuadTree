@@ -27,7 +27,11 @@ namespace UltimateQuadTree
         {
         }
 
-        public void Clear() => _rootSector.Clear();
+        public void Clear()
+        {
+            _rootSector.Clear();
+            _rootSector = new LeafSector(0, MainRect, _objectBounds, MaxObjects, MaxLevel);
+        }
 
         public void Insert(T obj)
         {
