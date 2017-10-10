@@ -5,6 +5,7 @@ Wikipedia - https://en.wikipedia.org/wiki/Quadtree
 
 Example for polygons defined by Point[]:
 
+{
 // implement IQuadTreeObjectBounds<T> interface for your object type 
 public class MyPolygonBounds : IQuadTreeObjectBounds<Point[]>
 {
@@ -39,3 +40,4 @@ var nearestObjects = quadTree.GetNearestObjects(myPolygon);
 // find the intersecting objects among the nearest 
 // bool IsIntersect(Point[] obj1, Point[] obj2) is your function for checking intersections
 var intersectingObjects = nearestObjects.Where(nearest => IsIntersect(nearest, myPolygon);
+}
