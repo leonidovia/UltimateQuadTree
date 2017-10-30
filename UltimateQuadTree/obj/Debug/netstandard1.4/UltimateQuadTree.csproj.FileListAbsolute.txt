@@ -1,8 +1,0 @@
-c:\users\igor\documents\visual studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\bin\Debug\netstandard1.4\UltimateQuadTree.deps.json
-c:\users\igor\documents\visual studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\bin\Debug\netstandard1.4\UltimateQuadTree.dll
-c:\users\igor\documents\visual studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\bin\Debug\netstandard1.4\UltimateQuadTree.pdb
-c:\users\igor\documents\visual studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\obj\Debug\netstandard1.4\UltimateQuadTree.csprojResolveAssemblyReference.cache
-c:\users\igor\documents\visual studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\obj\Debug\netstandard1.4\UltimateQuadTree.csproj.CoreCompileInputs.cache
-c:\users\igor\documents\visual studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\obj\Debug\netstandard1.4\UltimateQuadTree.AssemblyInfo.cs
-c:\users\igor\documents\visual studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\obj\Debug\netstandard1.4\UltimateQuadTree.dll
-c:\users\igor\documents\visual studio 2017\Projects\UltimateQuadTree\UltimateQuadTree\obj\Debug\netstandard1.4\UltimateQuadTree.pdb
