@@ -1,6 +1,7 @@
 ﻿// Copyright 2017 Igor' Leonidov
 // Licensed under the Apache License, Version 2.0
 
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -36,6 +37,8 @@ namespace UltimateQuadTree
         /// <param name="maxLevel">The max depth level. The default is 5. </param>
         public QuadTree(double x, double y, double width, double height, IQuadTreeObjectBounds<T> objectBounds, int maxObjects = 10, int maxLevel = 5)
         {
+            if(objectBounds == null) throw new ArgumentNullException(nameof(objectBounds));
+
             MaxObjects = maxObjects;
             MaxLevel = maxLevel;
             MainRect = new QuadTreeRect(x, y, width, height);
@@ -67,6 +70,8 @@ namespace UltimateQuadTree
         /// <returns>true if the element is added to the <see cref="T:UltimateQuadTree.QuadTree`1"></see>; false if failure.</returns>
         public bool Insert(T obj)
         {
+            if (obj == null) throw new ArgumentNullException(nameof(obj));
+
             if (!IsObjectInMainRect(obj)) return false;
 
             if (_rootSector.TryInsert(obj))
@@ -97,6 +102,7 @@ namespace UltimateQuadTree
         /// <param name="objects">The objects to insert.</param>
         public void InsertRange(IEnumerable<T> objects)
         {
+            if (objects == null) throw new ArgumentNullException(nameof(objects));
             foreach (var obj in objects) Insert(obj);
         }
 
@@ -105,6 +111,8 @@ namespace UltimateQuadTree
         /// <returns>true if the element is successfully found and removed; false if failure.</returns>
         public bool Remove(T obj)
         {
+            if (obj == null) throw new ArgumentNullException(nameof(obj));
+
             if (!_rootSector.Remove(obj)) return false;
 
             ObjectCount--;
@@ -121,6 +129,7 @@ namespace UltimateQuadTree
         /// <param name="objects">The objects to remove.</param> 
         public void RemoveRange(IEnumerable<T> objects)
         {
+            if (objects == null) throw new ArgumentNullException(nameof(objects));
             foreach (var obj in objects) Remove(obj);
         }
 
@@ -129,6 +138,7 @@ namespace UltimateQuadTree
         /// <returns> the enumeration of elements nearest to the object. </returns>
         public IEnumerable<T> GetNearestObjects(T obj)
         {
+            if (obj == null) throw new ArgumentNullException(nameof(obj));
             return _rootSector.GetNearestObjects(obj).Distinct();
         }
 
